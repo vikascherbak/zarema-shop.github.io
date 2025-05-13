@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ZAREMA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Arial', sans-serif; background: #fff; color: #000; }
+
+        header, footer {
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 20px 0;
+            font-size: 16px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+        }
+
+        .lang-switcher {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+
+        .banner {
+            width: 100%;
+            height: 300px;
+            background: #f4f4f4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+
+        .catalog {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 40px 20px;
+        }
+
+        .product-card {
+            width: 250px;
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-name {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .product-price {
+            font-weight: bold;
+        }
+
+        .contact-buttons {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .contact-buttons a {
+            margin: 0 10px;
+            padding: 10px 16px;
+            border: 1px solid #000;
+            text-decoration: none;
+            color: #000;
+        }
+
+        .contact-buttons a:hover {
+            background: #000;
+            color: #fff;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            font-size: 14px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="lang-switcher">
+            <a href="#">RU</a> | <a href="#">UA</a> | <a href="#">EN</a>
+        </div>
+        <h1>ZAREMA</h1>
+    </header>
+
+    <div class="banner">Новая коллекция clothes</div>
+
+    <nav>
+        <a href="#">Обувь</a>
+        <a href="#">Платья</a>
+        <a href="#">Рубашки</a>
+        <a href="#">Джинсы</a>
+    </nav>
+
+    <section class="catalog">
+        <div class="product-card">
+            <img src="golden_mules.jpeg" alt="Золотые мюли">
+            <div class="product-name">Золотые мюли</div>
+            <div class="product-price">$39</div>
+        </div>
+        <div class="product-card">
+            <img src="blue_mules.jpeg" alt="Синие мюли">
+            <div class="product-name">Синие мюли</div>
+            <div class="product-price">$39</div>
+        </div>
+    </section>
+
+    <div class="contact-buttons">
+        <a href="https://wa.me/1234567890" target="_blank">WhatsApp</a>
+        <a href="https://t.me/yourtelegramusername" target="_blank">Telegram</a>
+    </div>
+
+    <footer>
+        © 2025 ZAREMA
+    </footer>
+</body>
+</html>
